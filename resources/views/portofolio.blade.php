@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
-    ...
+    
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
@@ -11,7 +11,7 @@
     <title>Portofolio Danang</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 
-    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
 </head>
 
 <body class="bg-[#020617] text-white font-sans overflow-x-hidden">
@@ -126,11 +126,16 @@
     </section>
 
     <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
-<script>
-  AOS.init({
-    duration: 1000,
-    once: true
-  });
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+          AOS.init({
+              duration: 1000,
+              once: true,
+              mirror: false
+          });
+      });
+    </script>
+</body>
 </script>
 
 </body>
