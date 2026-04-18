@@ -81,7 +81,7 @@
     <div class="group relative glass p-8 rounded-3xl overflow-hidden transition-all duration-500 hover:-translate-y-3 hover:border-blue-500/50" data-aos="fade-up">
         <div class="absolute -right-8 -bottom-8 w-24 h-24 bg-blue-500/10 blur-2xl group-hover:bg-blue-500/20"></div>
         <h3 class="text-xl font-bold mb-4 group-hover:text-blue-400 transition-colors">Website Toko</h3>
-        <p class="text-gray-400 text-sm mb-6 leading-relaxed">Laravel E-commerce dengan sistem manajemen produk dan checkout yang responsif.</p>
+        <p class="text-gray-400 text-sm mb-6 leading-relaxed">Platform e-commerce modern dengan integrasi payment gateway dan manajemen produk real-time.</p>
         <div class="flex flex-wrap gap-3">
             <span class="font-mono text-[10px] px-3 py-1 rounded-full border border-blue-500/30 text-blue-400 bg-blue-500/5">LARAVEL</span>
             <span class="font-mono text-[10px] px-3 py-1 rounded-full border border-gray-500/30 text-gray-400 bg-white/5">V1.0</span>
@@ -90,21 +90,21 @@
 
     <div class="group relative glass p-8 rounded-3xl overflow-hidden transition-all duration-500 hover:-translate-y-3 hover:border-blue-500/50" data-aos="fade-up" data-aos-delay="100">
         <div class="absolute -right-8 -bottom-8 w-24 h-24 bg-blue-500/10 blur-2xl group-hover:bg-blue-500/20"></div>
-        <h3 class="text-xl font-bold mb-4 group-hover:text-blue-400 transition-colors">CRUD Buku</h3>
-        <p class="text-gray-400 text-sm mb-6 leading-relaxed">Sistem manajemen perpustakaan digital untuk pendataan buku secara real-time.</p>
+        <h3 class="text-xl font-bold mb-4 group-hover:text-blue-400 transition-colors">CRUD Perpustakaan</h3>
+        <p class="text-gray-400 text-sm mb-6 leading-relaxed">Sistem manajemen pendataan buku digital dengan fitur peminjaman otomatis.</p>
         <div class="flex flex-wrap gap-3">
-            <span class="font-mono text-[10px] px-3 py-1 rounded-full border border-blue-500/30 text-blue-400 bg-blue-500/5">PHP</span>
+            <span class="font-mono text-[10px] px-3 py-1 rounded-full border border-blue-500/30 text-blue-400 bg-blue-500/5">PHP MYSQL</span>
             <span class="font-mono text-[10px] px-3 py-1 rounded-full border border-gray-500/30 text-gray-400 bg-white/5">STABLE</span>
         </div>
     </div>
 
     <div class="group relative glass p-8 rounded-3xl overflow-hidden transition-all duration-500 hover:-translate-y-3 hover:border-blue-500/50" data-aos="fade-up" data-aos-delay="200">
         <div class="absolute -right-8 -bottom-8 w-24 h-24 bg-blue-500/10 blur-2xl group-hover:bg-blue-500/20"></div>
-        <h3 class="text-xl font-bold mb-4 group-hover:text-blue-400 transition-colors">Portfolio React</h3>
-        <p class="text-gray-400 text-sm mb-6 leading-relaxed">Landing page interaktif menggunakan React JS dengan animasi modern.</p>
+        <h3 class="text-xl font-bold mb-4 group-hover:text-blue-400 transition-colors">Portfolio Interactive</h3>
+        <p class="text-gray-400 text-sm mb-6 leading-relaxed">Landing page futuristik menggunakan Tailwind CSS v4 dengan efek Glassmorphism.</p>
         <div class="flex flex-wrap gap-3">
-            <span class="font-mono text-[10px] px-3 py-1 rounded-full border border-blue-500/30 text-blue-400 bg-blue-500/5">REACT</span>
-            <span class="font-mono text-[10px] px-3 py-1 rounded-full border border-gray-500/30 text-gray-400 bg-white/5">UX DESIGN</span>
+            <span class="font-mono text-[10px] px-3 py-1 rounded-full border border-blue-500/30 text-blue-400 bg-blue-500/5">TAILWIND</span>
+            <span class="font-mono text-[10px] px-3 py-1 rounded-full border border-gray-500/30 text-gray-400 bg-white/5">UI/UX</span>
         </div>
     </div>
 </div>
