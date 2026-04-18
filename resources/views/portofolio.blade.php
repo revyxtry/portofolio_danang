@@ -77,25 +77,37 @@
         <div class="max-w-6xl mx-auto">
             <h2 class="text-center font-mono text-sm text-blue-400 mb-16 tracking-[0.3em] uppercase">02. Tech Stack</h2>
             
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
-                <div class="glass p-8 rounded-3xl text-center group hover:border-blue-500/50 transition-all duration-500" data-aos="fade-up">
-                    <div class="text-4xl mb-4 group-hover:scale-110 transition-transform">🐘</div>
-                    <h4 class="font-bold text-white">PHP / Laravel</h4>
-                </div>
-                <div class="glass p-8 rounded-3xl text-center group hover:border-blue-500/50 transition-all duration-500" data-aos="fade-up" data-aos-delay="100">
-                    <div class="text-4xl mb-4 group-hover:scale-110 transition-transform">🎨</div>
-                    <h4 class="font-bold text-white">Tailwind CSS</h4>
-                </div>
-                <div class="glass p-8 rounded-3xl text-center group hover:border-blue-500/50 transition-all duration-500" data-aos="fade-up" data-aos-delay="200">
-                    <div class="text-4xl mb-4 group-hover:scale-110 transition-transform">⚡</div>
-                    <h4 class="font-bold text-white">Vite / JS</h4>
-                </div>
-                <div class="glass p-8 rounded-3xl text-center group hover:border-blue-500/50 transition-all duration-500" data-aos="fade-up" data-aos-delay="300">
-                    <div class="text-4xl mb-4 group-hover:scale-110 transition-transform">🗄️</div>
-                    <h4 class="font-bold text-white">MySQL</h4>
-                </div>
-            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+    <div class="group relative glass p-8 rounded-3xl overflow-hidden transition-all duration-500 hover:-translate-y-3 hover:border-blue-500/50" data-aos="fade-up">
+        <div class="absolute -right-8 -bottom-8 w-24 h-24 bg-blue-500/10 blur-2xl group-hover:bg-blue-500/20"></div>
+        <h3 class="text-xl font-bold mb-4 group-hover:text-blue-400 transition-colors">Website Toko</h3>
+        <p class="text-gray-400 text-sm mb-6 leading-relaxed">Laravel E-commerce dengan sistem manajemen produk dan checkout yang responsif.</p>
+        <div class="flex flex-wrap gap-3">
+            <span class="font-mono text-[10px] px-3 py-1 rounded-full border border-blue-500/30 text-blue-400 bg-blue-500/5">LARAVEL</span>
+            <span class="font-mono text-[10px] px-3 py-1 rounded-full border border-gray-500/30 text-gray-400 bg-white/5">V1.0</span>
         </div>
+    </div>
+
+    <div class="group relative glass p-8 rounded-3xl overflow-hidden transition-all duration-500 hover:-translate-y-3 hover:border-blue-500/50" data-aos="fade-up" data-aos-delay="100">
+        <div class="absolute -right-8 -bottom-8 w-24 h-24 bg-blue-500/10 blur-2xl group-hover:bg-blue-500/20"></div>
+        <h3 class="text-xl font-bold mb-4 group-hover:text-blue-400 transition-colors">CRUD Buku</h3>
+        <p class="text-gray-400 text-sm mb-6 leading-relaxed">Sistem manajemen perpustakaan digital untuk pendataan buku secara real-time.</p>
+        <div class="flex flex-wrap gap-3">
+            <span class="font-mono text-[10px] px-3 py-1 rounded-full border border-blue-500/30 text-blue-400 bg-blue-500/5">PHP</span>
+            <span class="font-mono text-[10px] px-3 py-1 rounded-full border border-gray-500/30 text-gray-400 bg-white/5">STABLE</span>
+        </div>
+    </div>
+
+    <div class="group relative glass p-8 rounded-3xl overflow-hidden transition-all duration-500 hover:-translate-y-3 hover:border-blue-500/50" data-aos="fade-up" data-aos-delay="200">
+        <div class="absolute -right-8 -bottom-8 w-24 h-24 bg-blue-500/10 blur-2xl group-hover:bg-blue-500/20"></div>
+        <h3 class="text-xl font-bold mb-4 group-hover:text-blue-400 transition-colors">Portfolio React</h3>
+        <p class="text-gray-400 text-sm mb-6 leading-relaxed">Landing page interaktif menggunakan React JS dengan animasi modern.</p>
+        <div class="flex flex-wrap gap-3">
+            <span class="font-mono text-[10px] px-3 py-1 rounded-full border border-blue-500/30 text-blue-400 bg-blue-500/5">REACT</span>
+            <span class="font-mono text-[10px] px-3 py-1 rounded-full border border-gray-500/30 text-gray-400 bg-white/5">UX DESIGN</span>
+        </div>
+    </div>
+</div>
     </section>
 
     <section id="projects" class="py-32 px-6">
